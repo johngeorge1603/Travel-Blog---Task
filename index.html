@@ -93,23 +93,25 @@
             <div class="col-1">
                 <!-- Button trigger modal -->
                 <a class="fixed-top text-end ms-auto d-block pt-2 pe-3 pb-1 fs-3" data-bs-toggle="modal" data-bs-target="#exampleModal" style=" width: 100px; cursor: pointer;">
-                  <i class="fa-sharp fa-solid fa-magnifying-glass text-dark"></i>
+                  <i class="fas fa-solid fa-magnifying-glass text-dark"></i>
                 </a>
 
                 <!-- Modal -->
-                <div class="modal fade mt-5" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog mt-5">
-                    <div class="modal-content mt-5" style="width: 200%; height: 200px; position: absolute; left: -50%;">
-                      
-                      <div class="modal-body mt-5">
-                        <input type="text" placeholder="Type and hit enter..." class="formcontrol w-75" style="height: 40px; padding: 5px; border: none; border-bottom: 1px solid black;">
+                <div class="modal fade w-100 bg-transparent" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-fullscreen w-100 bg-transparent">
+                      <div class="modal-content w-100 bg-transparent" style="height: 100vh;">
+          
+                          <div class="modal-body w-100">
+                            <div class="w-100">
+                              <input type="text" placeholder="Type and hit enter..." class="form-control bg-light w-75 rounded mx-auto d-block" style="height: 40px; padding: 5px; border: none; border-bottom: 1px solid black; border-radius: 0; margin-top: 200px;">
+                            </div>
+                              <div class="w-75 mx-auto d-block text-end">
+                                <a class="fs-5 text-decoration-none mt-3" type="button" data-bs-dismiss="modal" style="color:rgb(240, 205, 101);"><i class="fa-solid fa-xmark fa-sm"></i> Close</a>
+                              </div>
+                          </div>
                       </div>
-                      <div class="modal-footer">
-                        <a class="fs-5 me-3 text-decoration-none" type="button" data-bs-dismiss="modal" style="color:rgb(240, 205, 101) ;">Close</a>
-                      </div>
-                    </div>
                   </div>
-                </div>
+              </div>
             </div>
             
           </div>
