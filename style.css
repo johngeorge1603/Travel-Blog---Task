@@ -26,14 +26,14 @@
 }
 
 .overlay {
-    height: 600px;
+    height: 650px;
     background-color: black;
     opacity: 0.4;
     
 }
 
 .overlay img {
-    height: 600px;
+    height: 650px;
     background-size: cover;
     opacity: 0.2;
 }
@@ -65,7 +65,7 @@
 
 .icon-overlay p {
     position: absolute;
-    top: 550px;
+    top: 600px;
     text-align: center;
     font-size: 18px;
     font-family: 'Fira Sans', sans-serif;
